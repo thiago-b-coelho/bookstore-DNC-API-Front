@@ -1,2 +1,4 @@
 # projeto-react-api-node
-Projeto em React com API simples em Node.
+
+Front-end web page
+https://bookstore-dnc-api-front.vercel.app/livros)https://bookstore-dnc-api-front.vercel.app/livros
