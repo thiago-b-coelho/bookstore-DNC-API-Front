@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3000"
+const BASE_URL = "https://bookstore-dnc-api.vercel.app"
 
 export class LivrosService{
     static getLivros(){
@@ -12,11 +12,11 @@ export class LivrosService{
     }
 
     static createLivro(body){
-        return axios.post(`${BASE_URL}/livros`,body);
+        return axios.post(`${BASE_URL}/livros/cadastro`,body);
     }
 
     static updateLivro(id,body){
-        return axios.put(`${BASE_URL}/livros/${id}`,body);
+        return axios.put(`${BASE_URL}/livros/edicao/${id}`,body);
     }
 
     static deleteLivro(id){
